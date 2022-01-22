@@ -6,7 +6,7 @@ for(var i=0; i<links.length; i++){
 
 function handler(e){
   
-  /*e.preventDefault();*/
+ 
   
 let videotarget = this.getAttribute("href");
 let filename = videotarget.substr(0,videotarget.lastIndexOf('.'))||videotarget;
